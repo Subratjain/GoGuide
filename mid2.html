@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Science</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Yeseva+One&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LC
+	z02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="./style.css">
+	<script src="./script.js"></script>
+    <style>
+        
+        * {
+            margin: 0%;
+        }
+
+        .background {
+            height: 800px;
+            max-width: 100%;
+            display: flex;
+            background-image: url("./background1.png");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin-bottom: 50px;
+        }
+
+        .transbox {
+            height: 800px;
+            width: 100%;
+            background-color: #1a1a3f;
+            background-size: cover;
+            background-repeat: no-repeat;
+            opacity: 0.8;
+            margin-bottom: 50px;
+        }
+
+        .heading {
+            color: white;
+            font-size: 30px;
+            font-family: sans-serif;
+            display: flex;
+            justify-content: center;
+            padding-top: 200px;
+            padding-bottom: 75px;
+            margin-bottom: 50px;
+
+        }
+
+        .content {
+            display: flex;
+            justify-content: space-evenly;
+        }
+        h2{
+            padding-bottom: 20px;
+        }
+        .content div {
+            height: 400px;
+            width: 300px;
+        }
+
+        h1,
+        h2,
+        h3 {
+            font-family: Montserrat sans-serif;
+            color: white;
+        }
+        p{
+            color: white;
+            line-height: 150%;
+        }
+        .btn{
+    height: 40px;
+    width: 120px;
+    font-size: 16px;
+    border: 2px solid #ffbc3b;
+    color: #ffbc3b;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+.btn:hover{
+    background-color: #ffbc3b;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+ul{
+    color:white
+}
+
+
+footer {
+	color: #E5E8EF;
+	background: #000D;
+	padding: 50px 0; 
+}
+footer .footer-container {
+	max-width: 1300px;
+	margin: auto;
+	padding: 0 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap-reverse;
+}
+footer .social-media img{
+	width: 22px;
+}
+footer .logo {
+	width: 180px;
+	color: #fff;
+}
+footer .social-media a{
+	margin-right: 10px;
+	font-size: 22px;
+	text-decoration: none;
+}
+footer .right-col h1{
+	font-size: 26px;
+}
+footer .border{
+	width: 100px;
+	height: 4px;
+	background: linear-gradient(to right, #5e5e16, #8aca08);
+	margin: 2px;
+}
+footer .newsletter-form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+footer input::placeholder {
+  color: white !important;
+}
+footer .txtb {
+	flex: 1;
+	padding: 18px 40px;
+	font-size: 16px;
+	background: #343A40;
+	border: none;
+	font-weight: 700;
+	outline: none;
+	border-radius: 5px;
+	min-width: 260px;
+	margin-top: 20px;
+	color: white;
+}
+footer .btn {
+	margin-top: 20px;
+	padding: 18px 40px;
+	font-size: 16px;
+	color: #f1f1f1;
+	background: linear-gradient(to right, #5e5e16, #8aca08);
+	border: none;
+	font-weight: 700;
+	outline: none;
+	border-radius: 5px;
+	margin-left: 20px;
+	cursor: pointer;
+	transition: opacity .3s linear;	
+}
+footer .btn:hover {
+	opacity: .7;
+}
+footer .btn:active{
+	transition: .5s;
+	scale:1.1;
+	background-color: darkolivegreen;
+}
+    </style>
+</head>
+<header id="header">
+    <nav>
+        <a href="#"><div class="logo"><img src="./images/logo2 (2).png" alt="logo"></div></a>
+        <ul>
+            <li><a class="active" href="./index.html">Home</a></li>
+            
+            
+            <li><a href="./about-us.html">About</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+            <li><a href="./index.html#feedBACK">Feedback</a></li>
+        </ul>
+        <img src="./images/icon/menu.png" class="menu" onclick="sideMenu(0)" alt="menu">
+    </nav>
+    <div class="side-menu" id="side-menu">
+        <div class="close" onclick="sideMenu(1)"><img src="./images/icon/close.png" alt=""></div>
+        <ul>
+            <li><a class="active" href="./index.html">Home</a></li>
+           
+            <li><a href="./about-us.html">About</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+            <li><a href="./index.html#feedBACK">Feedback</a></li>
+        </ul>
+    </div>
+</div>
+</header>
+<body>
+    <div class="background">
+        <div class="transbox">
+            <div class="heading">
+                <h1>Computer Science</h1>
+            </div>
+            <div class="content">
+                <div>
+                    <h2>Computer Network</h2>
+                    <p>Here you will get every content of Computer Network:</p><br>
+                    <ul>
+                        <li>Introduction</li>
+                        <li>Bit and Bytes</li>
+                        <li>Notes</li>
+                        <li>Books</li>
+                        <li>Tutorials</li>
+                    </ul>
+                    <br>
+                        <a href="./ComputerNetwork.html"><button type="button" class="btn">Click Here</button></a>
+                        
+                </div>
+                <div>
+                    <h2>Operating System</h2>
+                    <p>Here you will get every content of Operating System:</p><br>
+                    <ul>
+                        <li>Introduction</li>
+                        <li>Function</li>
+                        <li>Notes</li>
+                        <li>Books</li>
+                        <li>Tutorials</li>
+                    </ul>
+                    <br>
+                        <a href="./OS.html"><button type="button" class="btn">Click Here</button></a>
+                </div>
+                <div>
+                    <h2>DBMS</h2>
+                    <p>Here you will get every content of DBMS:</p><br>
+                    <ul>
+                        <li>Introduction</li>
+                        <li>Paradigm Shift</li>
+                        <li>Notes</li>
+                        <li>Books</li>
+                        <li>Tutorials</li>
+                    </ul><br>
+                        <a href="./DBMS.html"><button type="button" class="btn">Click Here</button></a>
+                </div>
+                <div>
+                    <h2>
+                        Software Engineering
+                    </h2>
+                    <p>Here you will get every content of Software Engineering:</p><br>
+                    <ul>
+                        <li>Introduction</li>
+                        <li>Software Process</li>
+                        <li>Notes</li>
+                        <li>Books</li>
+                        <li>Tutorials</li>
+                    </ul><br>
+                        <a href="./SE.html"
+                ><button type="button" class="btn">Click Here</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <footer>
+        <div class="footer-container">
+            <div class="left-col">
+                <img src="./images/icon/logo2 (1).png" style="width: 200px;">
+                <div class="logo"></div>
+                <div class="social-media">
+                    <a href="#"><img src="./images/icon/tt.png"></a>
+                    <a href="#"><img src="./images/icon/ytube.png"></a>
+                    <a href="#"><img src="./images/icon/linkedin.png"></a>
+                </div><br><br>
+                <p class="rights-text">&copy; goGuide<script>document.write(new Date().getFullYear());</script></p>
+                <br><p><img src="./images/icon/location.png"> GLA University <br>Mathura, Uttar Pradesh - 281406</p><br>
+                <p><img src="./images/icon/phone.png">
+                    <a href="tel:+91-9999955555" style="color:#8aca08;">Connect</a><br>
+                    <img src="./images/icon/mail.png">&nbsp; <a href="mailto:goGuide@gmail.com" style="color:#8aca08;">Connect with us</a></p>
+                </div>
+                <div class="right-col">
+                    <h1 style="color: #fff">Our Newsletter</h1>
+                    <div class="border"></div><br>
+                    <p>Enter Your Email to get our News and updates.</p>
+                    <form class="newsletter-form" action="mailto:goGuide@gmail.com" method="post" enctype="text/plain">
+                        <input class="txtb" type="email" placeholder="Enter Your Email" required>
+                        <a href="mailto:goGuide@gmail.com"><input class="btn" type="submit" value="Submit"></a>
+                    </form>
+                </div>
+            </div>
+        </footer>
+</body>
+</html>

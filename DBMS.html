@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DBMS</title>
+    <style>
+        * {
+            margin: 0%;
+        }
+
+        .header1 {
+            width: 100%;
+            height: 800px;
+            margin: 0%;
+            background-image: url("./Photo1/3.jpeg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            margin-bottom: 0.5rem;
+            color: rgb(29, 254, 8);
+            font-size: 50px;
+            font-family: "Poppins", sans-serif;
+            display: flex;
+            justify-content: center;
+        }
+
+        .header1 h1 {
+            padding-top: 1px;
+            color: rgba(15, 243, 53, 0.801);
+        }
+
+        .banner1 {
+            display: flex;
+            justify-content: space-evenly;
+
+        }
+
+        .img1 {
+            height: 350px;
+            width: 45%
+        }
+
+        .content1 {
+            height: 400px;
+            width: 45%;
+            padding-left: 8px;
+            padding-right: 5px;
+        }
+
+        p {
+            line-height: 150%;
+            font-family: "Poppins", sans-serif;
+        }
+
+        .background {
+            width: 100%;
+            height: 500px;
+            background-image: url("./Images/course-5.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .transbox {
+            background-color: #1a1a3f;
+            width: 100%;
+            height: 500px;
+            opacity: 0.6;
+            text-align: center;
+        }
+
+        .img2 {
+            padding-top: 55px;
+        }
+
+        .btn {
+            height: 40px;
+            width: 120px;
+            font-size: 16px;
+            border: 2px solid #ffbc3b;
+            color: #ffbc3b;
+            background-color: white;
+            border-radius: 5px;
+            margin-left: 20px;
+        }
+
+        .btn:hover {
+            background-color: #ffbc3b;
+            color: white;
+            border: 2px solid white;
+            border-radius: 10px;
+        }
+
+        hr {
+            border: 2px solid whitesmoke;
+        }
+
+        img {
+            border-radius: 10px;
+        }
+
+        .content1 h1 {
+            color: black;
+            letter-spacing: 0.0625em;
+            text-align: center;
+            text-shadow: 3px 3px 3px rgb(178, 50, 50);
+        }
+
+        footer {
+            color: #E5E8EF;
+            background: #000D;
+            padding: 50px 0;
+        }
+
+        footer .footer-container {
+            max-width: 1300px;
+            margin: auto;
+            padding: 0 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap-reverse;
+        }
+
+        footer .social-media img {
+            width: 22px;
+        }
+
+        footer .logo {
+            width: 180px;
+            color: #fff;
+        }
+
+        footer .social-media a {
+            margin-right: 10px;
+            font-size: 22px;
+            text-decoration: none;
+        }
+
+        footer .right-col h1 {
+            font-size: 26px;
+        }
+
+        footer .border {
+            width: 100px;
+            height: 4px;
+            background: linear-gradient(to right, #5e5e16, #8aca08);
+            margin: 2px;
+        }
+
+        footer .newsletter-form {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        footer input::placeholder {
+            color: white !important;
+        }
+
+        footer .txtb {
+            flex: 1;
+            padding: 18px 40px;
+            font-size: 16px;
+            background: #343A40;
+            border: none;
+            font-weight: 700;
+            outline: none;
+            border-radius: 5px;
+            min-width: 260px;
+            margin-top: 20px;
+            color: white;
+        }
+
+        footer .btn {
+            margin-top: 20px;
+            padding: 18px 40px;
+            font-size: 16px;
+            color: #f1f1f1;
+            background: linear-gradient(to right, #5e5e16, #8aca08);
+            border: none;
+            font-weight: 700;
+            outline: none;
+            border-radius: 5px;
+            margin-left: 20px;
+            cursor: pointer;
+            transition: opacity .3s linear;
+        }
+
+        footer .btn:hover {
+            opacity: .7;
+        }
+
+        footer .btn:active {
+            transition: .5s;
+            scale: 1.1;
+            background-color: darkolivegreen;
+        }
+    </style>
+</head>
+
+<body>
+    <header id="header">
+
+
+        <div class="header1">
+            <h1></h1>
+        </div>
+        <hr>
+        <br>
+        <div class="banner1">
+            <div class="img1">
+                <img src="./Photo1/5.png" alt="" style="height:350px;width:100%">
+            </div>
+            <div class="content1">
+                <h1>What is DBMS?</h1><br>
+                <p>A database management system (or DBMS) is essentially nothing more than a computerized data-keeping
+                    system. Users of the system are given facilities to perform several kinds of operations on such a
+                    system for either manipulation of the data in the database or the management of the database
+                    structure itself. Database Management Systems (DBMSs) are categorized according to their data
+                    structures or types.</p><br>
+                <p>Mainframe sites tend to use a hierarchical model when the data structure (not data values) of the
+                    data needed for an application is relatively static. For example, a Bill of Material (BOM) database
+                    structure always has a high level assembly part number, and several levels of components with
+                    subcomponents. </p><br>
+                <a href="https://www.javatpoint.com/dbms-tutorial" target="_blank" style="padding-left:12rem"><button
+                        type="button" class="btn">Click
+                        Here</button></a>
+            </div>
+        </div><br><br>
+        <div class="banner1">
+            <div class="content1">
+                <h1>Paradigm Shift from File System to DBMS</h1><br>
+                <p> File System manages data using files on a hard disk. Users are allowed to create, delete, and update
+                    the files according to their requirements. Let us consider the example of file-based University
+                    Management System.
+
+                    <br>Data of students is available to their respective Departments, Academics Section,
+                    Result Section, Accounts Section, Hostel Office, etc. Some of the data is common for all sections
+                    like Roll No, Name, Father Name, Address, and Phone number of students but some data is available to
+                    a particular section only like Hostel allotment number which is a part of the hostel office.
+                </p><br>
+
+                <a href="https://www.geeksforgeeks.org/introduction-of-dbms-database-management-system-set-1/?ref=lbp"
+                    target="_blank" style="padding-left:12rem"><button type="button" class="btn">Click Here</button></a>
+            </div>
+            <div class="img1">
+                <img src="./Photo1/4.png" alt="" style="height:350px;width:100%">
+            </div>
+        </div>
+        <br><br>
+        <div class="banner1">
+            <div class="img1">
+                <img src="./Photo1/6.jpeg" alt="" style="height:350px;width:100%">
+            </div>
+            <div class="content1">
+                <h1>Data model Schema and Instance</h1><br>
+                <p>
+                    The data which is stored in the database at a particular moment of time is called an instance of the
+                    database.
+                    <br>
+                    The overall design of a database is called schema.
+                    <br>
+                    A database schema is the skeleton structure of the database. It represents the logical view of the
+                    entire database.
+                    <br>
+                    A schema contains schema objects like table, foreign key, primary key, views, columns, data types,
+                    stored procedure, etc.
+                </p><br>
+                <a href="https://drive.google.com/drive/folders/1TWHyI0-Z1Gj6UWSKSYoWRT5RmQaRtEex" target="_blank"
+                    style="margin-right: 4rem;"><button type="button" class="btn">Notes</button></a>
+                <a href="https://drive.google.com/drive/folders/1JjW-V2Jhbly0nvvJIWaiLsknt2TH791S" target="_blank"
+                    style="margin-right: 4rem;"><button type="button" class="btn"> Books </button></a>
+                <a href="https://youtube.com/playlist?list=PLxCzCOWd7aiFAN6I8CuViBuCdJgiOkT2Y" target="_blank"
+                    style="margin-right: 4rem;"><button type="button" class="btn">Tutorials</button></a>
+            </div>
+        </div>
+        <footer>
+            <div class="footer-container">
+                <div class="left-col">
+                    <img src="./images/icon/logo2 (1).png" style="width: 200px;">
+                    <div class="logo"></div>
+                    <div class="social-media">
+                        <a href="#"><img src="./images/icon/tt.png"></a>
+                        <a href="#"><img src="./images/icon/ytube.png"></a>
+                        <a href="#"><img src="./images/icon/linkedin.png"></a>
+                    </div><br><br>
+                    <p class="rights-text">&copy; goGuide<script>document.write(new Date().getFullYear());</script></p>
+                    <br><p><img src="./images/icon/location.png"> GLA University <br>Mathura, Uttar Pradesh - 281406</p><br>
+                    <p><img src="./images/icon/phone.png">
+                        <a href="tel:+91-9999955555" style="color:#8aca08;">Connect</a><br>
+                        <img src="./images/icon/mail.png">&nbsp; <a href="mailto:goGuide@gmail.com" style="color:#8aca08;">Connect with us</a></p>
+                    </div>
+                    <div class="right-col">
+                        <h1 style="color: #fff">Our Newsletter</h1>
+                        <div class="border"></div><br>
+                        <p>Enter Your Email to get our News and updates.</p>
+                        <form class="newsletter-form" action="mailto:goGuide@gmail.com" method="post" enctype="text/plain">
+                            <input class="txtb" type="email" placeholder="Enter Your Email" required>
+                            <a href="mailto:goGuide@gmail.com"><input class="btn" type="submit" value="Submit"></a>
+                        </form>
+                    </div>
+                </div>
+            </footer>
+
+</body>
+
+</html>

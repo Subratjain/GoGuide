@@ -1,0 +1,438 @@
+.container-fluid {
+    height: 50rem;
+    border-radius: 1px;
+    border-color: black;
+    width: 100%;
+    background-image: url("./Photo4/pencil-grip-1200.jpg");
+    background-size: cover;
+    padding: 0px;
+
+}
+
+.cp {
+    padding-left: 5rem;
+    padding-left: 5rem;
+
+    padding-top: 15.6rem;
+    font-size: 5rem;
+    color: aqua;
+
+}
+
+.ready {
+    padding-left: 7.5rem;
+    font-size: 2rem;
+    padding-top: 68.75re;
+}
+
+.Intro {
+    height: 25rem;
+    width: 68.75rem;
+    background-color: grey;
+    margin-left: 11.56rem;
+    margin-top: -50px;
+    display: flex;
+}
+
+.cp2 {
+    width: 500px;
+    height: 100%;
+}
+
+.v1 {
+    margin: 50px;
+    border-top: 5px solid white;
+    width: 75%;
+}
+
+h3 {
+    font-size: larger;
+    line-height: 1.2em;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.second-div {
+    height: 450px;
+    width: 100%;
+    border-color: aqua;
+    background-color: #723f42;
+    padding-top: 100px;
+
+}
+
+.Intro1 {
+    color: white;
+    margin-left: 25vh;
+    font-size: 55px;
+}
+
+.hr1 {
+
+    border-top: 5px solid white;
+    width: 1100px;
+    margin-left: 185px;
+}
+
+.start {
+    width: 1100px;
+    margin-left: 185px;
+    height: auto;
+    display: flex
+}
+
+.nice {
+    width: 50%;
+    text-align: center;
+    padding: 5px;
+    margin-right: 5px;
+    font-size: larger;
+    line-height: 1.em;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.introo1 {
+    padding-top: -5px;
+}
+
+.end {
+    width: 50%;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px;
+    margin-left: 20px;
+    font-size: larger;
+    line-height: 1.em;
+}
+
+.Third-div {
+    width: 163vh;
+    height: auto;
+    margin-left: 22vh;
+    margin-top: 18vh;
+    display: flex;
+}
+
+.coding-plateform {
+    color: white;
+    text-align: center;
+}
+
+.photos {
+    width: 60%;
+    border: 2px solid #b1363e;
+    background-color: #b1363e;
+    padding: 20px;
+    font-size: larger;
+}
+
+#plateform1 {
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+#xxx {
+    width: 100%;
+    border: 2px solid white;
+}
+
+.Note {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4vh;
+    color: white;
+}
+
+.Note1 {
+    padding-left: 50vh;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button2 {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.cards {
+    width: 100%;
+    background-color: grey;
+    display: flex;
+}
+.card{
+    width:30%;
+}
+
+
+.card-title {
+    margin-top: 2rem;
+    color: white;
+}
+
+
+.card-text {
+    padding-top: 2rem;
+    color: white;
+}
+
+.imgg2 {
+    width: 50%;
+    height: 50%
+}
+
+.imgg3 {
+    width: 50%;
+    height: 50%
+}
+
+.horizontal-image {
+    width: 70%;
+    display: flex;
+}
+.container-lg{
+    width: fit-content;
+}
+.last{
+    height: max-content;
+    padding: 15vh;
+    display: flex;
+}
+.last p{
+    padding-left: 5vh;
+    padding-top: 2vh;
+
+    color: white;
+    line-height: 2;
+}
+footer {
+	color: #E5E8EF;
+	background: #000D;
+	padding: 50px 0; 
+}
+footer .footer-container {
+	max-width: 1300px;
+	margin: auto;
+	padding: 0 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap-reverse;
+}
+footer .social-media img{
+	width: 22px;
+}
+footer .logo {
+	width: 180px;
+	color: #fff;
+}
+footer .social-media a{
+	margin-right: 10px;
+	font-size: 22px;
+	text-decoration: none;
+}
+footer .right-col h1{
+	font-size: 26px;
+}
+footer .border{
+	width: 100px;
+	height: 4px;
+	background: linear-gradient(to right, #5e5e16, #8aca08);
+	margin: 2px;
+}
+footer .newsletter-form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+footer input::placeholder {
+  color: white !important;
+}
+footer .txtb {
+	flex: 1;
+	padding: 18px 40px;
+	font-size: 16px;
+	background: #343A40;
+	border: none;
+	font-weight: 700;
+	outline: none;
+	border-radius: 5px;
+	min-width: 260px;
+	margin-top: 20px;
+	color: white;
+}
+footer .btn {
+	margin-top: 20px;
+	padding: 18px 40px;
+	font-size: 16px;
+	color: #f1f1f1;
+	background: linear-gradient(to right, #5e5e16, #8aca08);
+	border: none;
+	font-weight: 700;
+	outline: none;
+	border-radius: 5px;
+	margin-left: 20px;
+	cursor: pointer;
+	transition: opacity .3s linear;	
+}
+footer .btn:hover {
+	opacity: .7;
+}
+footer .btn:active{
+	transition: .5s;
+	scale:1.1;
+	background-color: darkolivegreen;
+}
+
+
+@media(max-width:998px) {
+    html {
+        font-size: 30px;
+    }
+}
+
+@media(max-width:768px) {
+    html {
+        font-size: 45%;
+    }
+    
+}
+
+@media(max-width:415px) {
+    html {
+        font-size: 45%;
+    }
+
+    .container-fluid {
+        width: 100%;
+    }
+
+    .Intro {
+        width: 100%;
+        margin: 0;
+    }
+
+    .Intro img {
+        display: none;
+    }
+
+    .v1 {
+        margin: 0;
+        width: 100%;
+    }
+
+    .v1 h1 {
+        margin: 0;
+        padding: 0;
+    }
+
+    .v1 h3 {
+        margin: 0;
+        font-size: 13px;
+    }
+
+    .second-div {
+        width: 100%;
+        height: 100%;
+        padding: 0;
+    }
+
+    .second-div .Intro1 {
+        margin: 0;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .hr1 {
+        width: 100%;
+        margin: 0;
+    }
+
+    .second-div .introo1 .start {
+        width: 100%;
+        margin: 0;
+        font-size: 20px;
+        flex-direction: column;
+    }
+
+    .second-div .introo1 .start p {
+        width: 100vw;
+    }
+
+    .second-div .introo1 .start .nice,
+    .second-div .introo1 .start .end {
+        margin: 0;
+        padding: 0;
+    }
+
+    .Third-div {
+        width: 100%;
+        margin: 0;
+        flex-direction: column;
+    }
+    .Third-div img{
+        width: 100%;
+    }
+
+    .Third-div .photos{
+        width: 100%;
+        padding: 0;
+    }
+    .Third-div .photos h1{
+        font-size: 30px;
+    }
+    #plateform1{
+        font-size: 20px;
+    }
+    .btn{
+        width: 100% ;
+        height: 35px;
+        font-size: 20px;
+        /* line-height: 35px; */
+    }
+
+    .Note p{
+        padding: 0;
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+    .cards img{
+        width: 100%;
+    }
+    .card{
+        width: 100%;
+    }
+    .horizontal-image{
+        width: 100%;
+        display: block;
+    }
+    .container-lg h1{
+        font-size:35px;
+    }
+    .last {
+display: block;
+padding-left: 0px;
+padding-top: 2px;
+padding-right:0px ;
+margin: 0px;
+    }
+    .last p{
+        width:100%;
+        padding:0px;
+        font-size: large;
+        line-height: 1.5;
+        
+    }
+}

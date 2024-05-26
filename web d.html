@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Web development</title>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    height: max-content;
+    max-width: 100%;
+    display: flex;
+    background-image: url("./Photo7/courses/d1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.transbox {
+    height: max-content;
+    max-width: 100%;
+    background-color: #1a1a3f;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+
+}
+
+.heading {
+    padding-top: 200px;
+    color: white;
+    padding-left: 200px;
+    font-size: 25px;
+
+}
+
+.heading1 {
+    color: white;
+    padding-left: 200px;
+    font-size: 25px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.banner {
+    display: flex;
+
+}
+
+.first {
+    padding-top: 150px;
+
+
+}
+
+.second {
+    padding-top: 150px;
+}
+
+.content2 {
+    width: 100%;
+    background-color: rgb(255, 251, 245);
+
+}
+
+.banner2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.content3 {
+    width: 600px;
+    margin-top: 50px;
+}
+
+.img3 img{
+    margin-top: 50px;
+    width: 600px;
+    height: 400px;
+    border-radius: 20px;
+}
+
+.btn {
+    height: 40px;
+    width: 120px;
+    font-size: 16px;
+    border: 2px solid #ffbc3b;
+    color: #ffbc3b;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.btn:hover {
+    background-color: #ffbc3b;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+hr {
+    border: 2px solid whitesmoke;
+    margin-bottom:20px ;
+}
+
+.card1 {
+    width: 21.875rem;
+    height: max-content;
+    border: 2px solid whitesmoke;
+    margin-top: 30px;
+
+}
+
+.main3 {
+    display: flex;
+    margin-left: 90px;
+    margin-right: 90px;
+    justify-content: space-evenly;
+}
+
+p {
+    line-height: 200%;
+    font-family: "Poppins", sans-serif;
+}
+
+.card1:hover {
+    border: 1px solid rgb(228, 226, 226);
+    box-shadow: 5px 5px 5px #888888;
+}
+
+.ppt {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.foot {
+    width: 100%;
+    height: max-content;
+    background-color: #ffbc3b;
+    text-align: center;
+    color: white;
+}
+
+.foot h3 {
+    padding-top: 5rem;
+
+}
+
+.foot h1 {
+    margin-top: -10px;
+}
+.head1 {
+    width: 100%;
+    height: max-content;
+    background-color: #7ee895;
+    text-align: center;
+    color: white;
+}
+
+.head1 h3 {
+    padding-top: 5rem;
+
+}
+
+.head1 h1 {
+    margin-top: -10px;
+}
+
+.ssb {
+    width: 100%;
+    height: 43.5rem;
+    background-image: url("./images1/backgrounds/success-story.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.ssb {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.buttonborder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background-color: #ffbc3b;
+
+}
+
+.buttonborder:hover {
+    background-color: white;
+    width: 4rem;
+    height: 4rem;
+    border: 0.5rem solid #ffbc3b;
+    border-radius: 50%;
+    color: white;
+}
+
+.fa-play-circle::before {
+    color: black;
+}
+
+#content {
+    height: max-content;
+    width: 20rem;
+    align-items: center;
+    padding: 5px;
+    background-color: white;
+}
+
+
+
+@media screen and (max-width:450px) {
+    .background {
+        width: 100%;
+        height: 100%;
+    }
+
+    .transbox {
+        width: 100%;
+        height: 100%;
+    }
+
+    .heading,
+    .heading1 {
+        padding: 0px 5px;
+        font-size: 20px;
+    }
+
+    .banner,
+    .banner2 {
+        flex-direction: column;
+    }
+
+    .banner img{
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+    }
+
+    .main {
+        flex-direction: column;
+    }
+    .content3{
+        width: 100%;
+        height: 100%;
+    }
+    .banner2 .img3 img{
+        width: 100%;
+        }
+
+    .first,
+    .second {
+        padding: 0;
+    }
+
+    .main3{
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+    }
+    .main3 .card1{
+        width: 100%;
+        height: 100%;
+    }
+    #content{
+        height: 220px;
+        margin: 0px 15px;
+    }
+
+}
+footer {
+	color: #E5E8EF;
+	background: #000D;
+	padding: 50px 0; 
+}
+footer .footer-container {
+	max-width: 1300px;
+	margin: auto;
+	padding: 0 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap-reverse;
+}
+footer .social-media img{
+	width: 22px;
+}
+footer .logo {
+	width: 180px;
+	color: #fff;
+}
+footer .social-media a{
+	margin-right: 10px;
+	font-size: 22px;
+	text-decoration: none;
+}
+footer .right-col h1{
+	font-size: 26px;
+}
+footer .border{
+	width: 100px;
+	height: 4px;
+	background: linear-gradient(to right, #5e5e16, #8aca08);
+	margin: 2px;
+}
+footer .newsletter-form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+footer input::placeholder {
+  color: white !important;
+}
+footer .txtb {
+	flex: 1;
+	padding: 18px 40px;
+	font-size: 16px;
+	background: #343A40;
+	border: none;
+	font-weight: 700;
+	outline: none;
+	border-radius: 5px;
+	min-width: 260px;
+	margin-top: 20px;
+	color: white;
+}
+footer .btn {
+	margin-top: 20px;
+	padding: 18px 40px;
+	font-size: 16px;
+	color: #f1f1f1;
+	background: linear-gradient(to right, #5e5e16, #8aca08);
+	border: none;
+	font-weight: 700;
+	outline: none;
+	border-radius: 5px;
+	margin-left: 20px;
+	cursor: pointer;
+	transition: opacity .3s linear;	
+}
+footer .btn:hover {
+	opacity: .7;
+}
+footer .btn:active{
+	transition: .5s;
+	scale:1.1;
+	background-color: darkolivegreen;
+}
+    </style>
+</head>
+
+<body>
+    
+    <div class="background">
+        <div class="transbox">
+            <div class="heading">
+                <h1>Web-Development</h1>
+                <p>
+                    “Website without visitors is like a ship lost in the horizon.”
+                <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-
+                Christopher Dayagdag
+                </p>
+            </div>
+            <br><br><br><br>
+            <div class="heading1">
+                <h1>What Exactly is ?</h1>
+                <p>Web development is closely related to the job of designing the features and functionality of websites and apps (often called “web design”), but the “web development” term is usually reserved for the actual construction and programming of websites and apps.</p><br><br><br>
+            </div>
+        </div>
+    </div>
+    </div>
+    
+    <div class="banner2">
+        <div class="content3">
+            <h1> Trends for Leading Developers:
+            </h1><br>
+            <ul>
+                <li type="circle" style="color: black;">Motion -  UI</li><br>
+                <li type="circle" style="color: black;">Serverless Architecture</li><br>
+                <li type="circle" style="color: black;">No Code/Low Code Development</li><br>
+                <li type="circle" style="color: black;">Dark Mode is Easier on the Eyes</li><br>
+                <li type="circle" style="color: black;">Voice Search is Rapidly Increasing in Popularity</li><br>
+                <li type="circle" style="color: black;"> Parallax Scrolling Makes Sections of Webpages Shine</li><br>
+                <li type="circle" style="color: black;">Mobile First Development Will Continue to Increase in Popularity</li><br>
+                <li type="circle" style="color: black;">Developers Have to Widen Their Coding Knowledge Continually</li><br>
+                <li type="circle" style="color: black;">Progressive Web Applications (PWA) are Increasing in Popularity</li><br>
+                <li type="circle" style="color: black;"> WordPress Will Continue to be a Favored Form of Web Development</li><br>
+                <li type="circle" style="color: black;"> WebAssembly Now Provides a Way to Bring Traditional Programming Languages to the Web</li><br>
+            </ul>
+            <a href="https://developer.mozilla.org/en-US/docs/Learn" target="_blank"><button type="button"
+                    class="btn">Learn More</button></a>
+        </div>
+        <div class="img3">
+            <img src="./Photo7/courses/tech1.png" alt="" >
+        </div>
+    </div>
+    <br><br>
+    <div class="head1">
+        <h3><blockquote>"SOONER OR LATER , THOSE WHO WIN ARE THOSE WHO THINK THEY CAN."</blockquote></h3><br>
+        <h1>Web Development Projects With Source Code</h1><br>
+        <a href="https://www.interviewbit.com/blog/web-development-projects/" target="_blank"><button
+                type="button" class="btn">Click Here</button></a><br><br><br>
+    </div>
+
+    <hr>
+    <h1 style="text-align: center;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Content</h1>
+
+    <div class="main3">
+        <div class="card1">
+            <div>
+                <img src="./Photo7/courses/books.jpg" alt="" style="height:300px;width: 350px;">
+            </div>
+            <div class="ppt">
+                <br><h3>Books</h3>
+                <p>You will get some books of web d which helps you to get knowledge about web d.</p><br>
+                <a href="https://drive.google.com/drive/folders/1N0_Dg8CQybqrCtGoDhtszBOFRq3MRf9x"
+                    target="_blank"><button type="button" class="btn">Click Here</button></a><br><br>
+            </div>
+        </div>
+        <div class="card1">
+            <div>
+                <img src="./Photo7/backgrounds/onego.jpg" alt="" style="height:300px; width: 350px;">
+            </div>
+            <div class="ppt">
+               <br> <h3>Some Basic Content</h3>
+                <p> Here you will get all the information about the elemnt use in web development.</p><br>
+                <a href="https://overapi.com/html"
+                    target="_blank"><button type="button" class="btn">Click Here</button></a><br><br>
+            </div>
+        </div>
+        <div class="card1">
+            <div>
+                <img src="./Photo7/banner/c1.webp" alt="" style="height:300px;width: 350px;">
+            </div>
+            <div class="ppt">
+                <br><h3>Tutorials</h3>
+                <p>Some of the tutorials available here.</p><br>
+                <a href="https://cursa.app/free-courses-web-development-online" target="_blank"><button type="button"
+                        class="btn">Click Here</button></a><br><br>
+            </div>
+        </div>
+    </div>
+    <br><br>
+
+    <div class="foot">
+        <h3>Research Paper gives you a head start to future scholarly works</h3>
+        <h1>Best research paper can be seen by clicking below..</h1>
+        <a href="https://www.sciencegate.app/keyword/265080" target="_blank"><button
+                type="button" class="btn">Click Here</button></a><br><br><br>
+    </div>
+    <div class="ssb">
+        <a href="https://www.youtube.com/playlist?list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg" target="_blank">
+            <div class="ybutton">
+                <div class="buttonborder">
+                    <i class="fa fa-play-circle" aria-hidden="true"></i>
+        </a>
+    </div>
+    </div>
+    </a>
+    <div id="content">
+        <h2>True Fact.</h2>
+        <p>
+            Technology is so much fun but we can drown in our technology. The fog of information can drive out knowledge.
+        </p>
+
+    </div>
+    </div>
+
+
+    <footer>
+        <div class="footer-container">
+            <div class="left-col">
+                <img src="./images/icon/logo2 (1).png" style="width: 200px;">
+                <div class="logo"></div>
+                <div class="social-media">
+                    <a href="#"><img src="./images/icon/tt.png"></a>
+                    <a href="#"><img src="./images/icon/ytube.png"></a>
+                    <a href="#"><img src="./images/icon/linkedin.png"></a>
+                </div><br><br>
+                <p class="rights-text">&copy; goGuide<script>document.write(new Date().getFullYear());</script></p>
+                <br><p><img src="./images/icon/location.png"> GLA University <br>Mathura, Uttar Pradesh - 281406</p><br>
+                <p><img src="./images/icon/phone.png">
+                    <a href="tel:+91-9999955555" style="color:#8aca08;">Connect</a><br>
+                    <img src="./images/icon/mail.png">&nbsp; <a href="mailto:goGuide@gmail.com" style="color:#8aca08;">Connect with us</a></p>
+                </div>
+                <div class="right-col">
+                    <h1 style="color: #fff">Our Newsletter</h1>
+                    <div class="border"></div><br>
+                    <p>Enter Your Email to get our News and updates.</p>
+                    <form class="newsletter-form" action="mailto:goGuide@gmail.com" method="post" enctype="text/plain">
+                        <input class="txtb" type="email" placeholder="Enter Your Email" required>
+                        <a href="mailto:goGuide@gmail.com"><input class="btn" type="submit" value="Submit"></a>
+                    </form>
+                </div>
+            </div>
+        </footer>
+</body>
+
+</html>
